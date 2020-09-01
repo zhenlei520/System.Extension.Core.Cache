@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D59090F6-7C01-4A0A-ADD0-49187CF6B6F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EInfrastructure.Core.Cache.MemoryCache", "src\EInfrastructure.Core.Cache.MemoryCache\EInfrastructure.Core.Cache.MemoryCache.csproj", "{32224068-9BC6-43A0-8BC3-FEC70DD18E35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EInfrastructure.Core.Cache.Redis", "src\EInfrastructure.Core.Cache.Redis\EInfrastructure.Core.Cache.Redis.csproj", "{826865BF-2224-4EF6-BB40-30C71193CC74}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MemoryCache", "MemoryCache", "{DD0E8602-BF82-4EE1-9E09-67693D33005F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Redis", "Redis", "{295CA059-750E-493B-BC77-18E9FCCCE87F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EInfrastructure.Core.Cache.Redis.Test", "src\EInfrastructure.Core.Cache.Redis.Test\EInfrastructure.Core.Cache.Redis.Test.csproj", "{19E03B8A-DE85-4FB7-8F03-F978642DD482}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DD0E8602-BF82-4EE1-9E09-67693D33005F} = {D59090F6-7C01-4A0A-ADD0-49187CF6B6F4}
+		{295CA059-750E-493B-BC77-18E9FCCCE87F} = {D59090F6-7C01-4A0A-ADD0-49187CF6B6F4}
+		{32224068-9BC6-43A0-8BC3-FEC70DD18E35} = {DD0E8602-BF82-4EE1-9E09-67693D33005F}
+		{826865BF-2224-4EF6-BB40-30C71193CC74} = {295CA059-750E-493B-BC77-18E9FCCCE87F}
+		{19E03B8A-DE85-4FB7-8F03-F978642DD482} = {295CA059-750E-493B-BC77-18E9FCCCE87F}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32224068-9BC6-43A0-8BC3-FEC70DD18E35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32224068-9BC6-43A0-8BC3-FEC70DD18E35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32224068-9BC6-43A0-8BC3-FEC70DD18E35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32224068-9BC6-43A0-8BC3-FEC70DD18E35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{826865BF-2224-4EF6-BB40-30C71193CC74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{826865BF-2224-4EF6-BB40-30C71193CC74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{826865BF-2224-4EF6-BB40-30C71193CC74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{826865BF-2224-4EF6-BB40-30C71193CC74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19E03B8A-DE85-4FB7-8F03-F978642DD482}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19E03B8A-DE85-4FB7-8F03-F978642DD482}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19E03B8A-DE85-4FB7-8F03-F978642DD482}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19E03B8A-DE85-4FB7-8F03-F978642DD482}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
